@@ -43,8 +43,8 @@ INSTALLED_APPS = [
     'users.apps.UsersConfig',
     'celery'
 ]
-
-CSRF_TRUSTED_ORIGINS = ['template-django-regbaouim-production.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://template-django-regbaouim-production.up.railway.app']
+# CSRF_TRUSTED_ORIGINS = ['https://template-django-production-6e65.up.railway.app']
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
